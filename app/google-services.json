@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "43024898919",
+    "firebase_url": "https://digitalized-attendance-systemm.firebaseio.com",
+    "project_id": "digitalized-attendance-systemm",
+    "storage_bucket": "digitalized-attendance-systemm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43024898919:android:d4a057fe996dc208",
+        "android_client_info": {
+          "package_name": "com.example.android.whitecaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43024898919-m5qshltqpk56d2r44tp8muhvts1nlrv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.whitecaps",
+            "certificate_hash": "6efc38455252fa68dea58ca0bfffab0800518eb2"
+          }
+        },
+        {
+          "client_id": "43024898919-a11drhi9pn7ko66kvhj60aufnl36t70j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVL1EyN0KkpbFj6PSSIaw8Wmityqd5o7g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43024898919-a11drhi9pn7ko66kvhj60aufnl36t70j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

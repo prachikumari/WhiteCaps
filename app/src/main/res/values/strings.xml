@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Digital Attendance System</string>
+    <string name="spinner_title">Semester</string>
+    <string-array name="semester">
+        <item>Semester</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="stream">
+        <item>Stream</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>IT</item>
+
+    </string-array>
+    <string-array name="section">
+        <item>Section</item>
+
+
+    </string-array>
+    <string-array name="period">
+        <item>Period</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="useremail">tamal@gmail.com</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="login_failed">Login failed.</string>
+
+    <string name="username_error">Enter username</string>
+    <string name="password_error">Enter password</string>
+    <string name="success_message">You\'ve Successfully Logged In!!</string>
+
+
+<string name="title_activity_navigation_admin">Navigation_admin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
