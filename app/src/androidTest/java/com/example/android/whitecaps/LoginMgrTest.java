@@ -20,7 +20,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
 /**
- * Created by Pramod on 05/05/17.
+ * Created by Harshita on 05/05/17.
  */
 @RunWith(JUnit4.class)
 public class LoginMgrTest {
