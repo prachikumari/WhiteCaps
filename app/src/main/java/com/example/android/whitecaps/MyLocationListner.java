@@ -17,7 +17,7 @@ import java.io.IOException;
 /**
  * Created by User on 03-05-2017.
  */
-//MyLocationListener
+//MyLocationListener.
 
 public class MyLocationListner implements LocationListener {
     Context p;
