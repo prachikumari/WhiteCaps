@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import java.io.IOException;
 
-//Login Page
+//Login Page 1
 public class LoginMgr extends AppCompatActivity {
     private static EditText username;
     private static EditText password;
