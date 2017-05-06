@@ -17,7 +17,7 @@ import android.widget.TextView;
 
 import java.text.ParseException;
 import java.util.Date;
-//Teacher Dashboard
+//Teacher Dashboard.
 public class Teacher_Dashboard extends AppCompatActivity {
     private String usr_name;
     private static TextView username;
