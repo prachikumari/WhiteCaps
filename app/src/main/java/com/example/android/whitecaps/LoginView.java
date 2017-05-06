@@ -1,7 +1,7 @@
 package com.example.android.whitecaps;
 
 /**
- * Created by Pramod on 05/05/17.
+ * Created by Harshita on 05/05/17.
  */
 public interface LoginView {
     String getUsername();
