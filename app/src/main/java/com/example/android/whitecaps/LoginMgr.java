@@ -1,4 +1,5 @@
 package com.example.android.whitecaps;
+
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -10,10 +11,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.io.IOException;
+import static android.widget.Toast.LENGTH_SHORT;
 
-//Login Page 1
-public class LoginMgr extends AppCompatActivity {
+//Login Page
+public class LoginMgr extends AppCompatActivity implements LoginView{
     private static EditText username;
     private static EditText password;
     private static Button login_btn;
@@ -32,8 +33,9 @@ public class LoginMgr extends AppCompatActivity {
     public void setEmail(String email) {
         this.email = email;
     }
+    LoginService service = new LoginService();
 
-
+    LoginPresenter presenter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {//execution starts here
 
@@ -43,7 +45,7 @@ public class LoginMgr extends AppCompatActivity {
         username = (EditText)findViewById(R.id.editText_user);
         password = (EditText)findViewById(R.id.editText_password);
         login_btn = (Button)findViewById(R.id.button_login);
-
+        presenter =  new LoginPresenter(this,service);
         Intent intent=getIntent();
         String str = intent.getStringExtra("mystr");//getting value from mainPage(i.e 1/2/3)
         if(str == null) str = 1 +"" ;
@@ -90,7 +92,8 @@ public class LoginMgr extends AppCompatActivity {
         });
     }*/
     public void authenticateUser( String table, String username , String password) {
-       DataMgr helper = new DataMgr(LoginMgr.this);
+        presenter.onLoginClicked();
+       /*DataMgr helper = new DataMgr(LoginMgr.this);
         try {
           helper.createDataBase();
        } catch (IOException e) {e.printStackTrace();}
@@ -129,7 +132,7 @@ public class LoginMgr extends AppCompatActivity {
         {
             String msg ="Invalid Password";
             showalert(msg);
-        }
+        }*/
 
     }
     //showsalert with message
@@ -160,4 +163,33 @@ public class LoginMgr extends AppCompatActivity {
         );
     }
 
+    @Override
+    public String getUsername() {
+        return username.getText().toString();
+    }
+
+    @Override
+    public void showUsernameError(int resId) {
+        username.setError(getString(resId));
+    }
+
+    @Override
+    public String getPassword() {
+        return password.getText().toString();
+    }
+
+    @Override
+    public void showPasswordError(int resId) {
+        password.setError(getString(resId));
+    }
+
+    @Override
+    public void startMainActivity() {
+        new ActivityUtil(this).startMainActivity();
+    }
+
+    @Override
+    public void showLoginError(int resId) {
+        Toast.makeText(this, getString(resId), LENGTH_SHORT).show();
+    }
 }
