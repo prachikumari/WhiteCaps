@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
-//Admin Dashboard
+//Admin Dashboard.
 public class Admin_Dashboard extends AppCompatActivity {
       private String usr_name;
       String table_name;
