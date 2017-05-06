@@ -17,7 +17,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.CoreMatchers.notNullValue;
 
 /**
- * Created by Pramod on 06/05/17.
+ * Created by User on 06/05/17.
  */
 @RunWith(JUnit4.class)
 public class Teacher_DashboardTest {
