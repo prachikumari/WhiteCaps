@@ -90,7 +90,7 @@ public class UploadRoutine extends AppCompatActivity implements AdapterView.OnIt
     //private String file_url = "file:///android_asset/Template_ROUTINE.csv";
 //    private String file_url = "WhiteCaps/app/src/main/assets/Template_ROUTINE.csv";
 
-    /**********  File Path *************/
+    /*********  File Path ************/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
