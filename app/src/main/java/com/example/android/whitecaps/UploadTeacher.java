@@ -36,7 +36,7 @@ public class UploadTeacher extends AppCompatActivity{
     private  int PICK_CSV_REQUEST=1;
     //storage permission code
     private static final int STORAGE_PERMISSION_CODE = 123;
-    //Uri to stor`e the image uri
+    //Uri to store the image uri
     private Uri filePath;
     Button buttonChoose,buttonUpload,downloadtemplate;
     @Override
