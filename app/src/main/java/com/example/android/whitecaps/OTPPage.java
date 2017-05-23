@@ -21,6 +21,7 @@ public class OTPPage extends AppCompatActivity {
     private String OTP;
     private  String Period;
     String provider;
+    
     LocationManager locationManager;
     String startTimeOtp;
     String endTimeOtp;
