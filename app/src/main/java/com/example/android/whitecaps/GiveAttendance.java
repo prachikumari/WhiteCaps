@@ -36,7 +36,7 @@ public class GiveAttendance extends AppCompatActivity {
         enterotp = (EditText) findViewById(R.id.otpvalue);
         submit = (Button) findViewById(R.id.submit);
         btnclick();
-    }
+     }
 
     private void btnclick() {
         submit.setOnClickListener(
