@@ -30,7 +30,7 @@ public class FilePath
         //check here to KITKAT or new version
         final boolean isKitKat = Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT;
 
-        // DocumentProvider
+        // DocumentProvide
         if (isKitKat && DocumentsContract.isDocumentUri(context, uri)) {
 
             // ExternalStorageProvider
