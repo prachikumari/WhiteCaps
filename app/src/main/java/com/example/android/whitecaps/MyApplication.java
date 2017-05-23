@@ -20,6 +20,6 @@ public class MyApplication extends Application{
 
     public void setConnectivityReceiver(NetworkStateChangeReceiver.ConnectivityReceiverListener listener){
         NetworkStateChangeReceiver.crl = listener;
-    }
+     }
 
 }
