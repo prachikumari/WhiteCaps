@@ -19,6 +19,7 @@ public class Student_Dashboard extends AppCompatActivity {
     private static Button btn;
     DataMgr d;
     private String lat,lon,addr;
+    
     GPSTracker gps;
     //Student student;
     Student student;
