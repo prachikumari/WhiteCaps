@@ -105,7 +105,7 @@ public class SplashScreen extends AppCompatActivity implements NetworkStateChang
         tmDevice = "" + tm.getDeviceId();
 
 
-        Thread t = new Thread(new Runnable() {
+        Thread t = new Thread(new Runnable(){
             @Override
             public void run() {
                 File dir = p.getCacheDir();  //return the directory of internal cache in which your file will be created
