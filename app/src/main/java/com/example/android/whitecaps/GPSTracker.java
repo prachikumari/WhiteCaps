@@ -21,6 +21,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.location.Address;
+
 import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
