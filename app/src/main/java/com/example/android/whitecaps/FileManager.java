@@ -31,7 +31,7 @@ public class FileManager {
     String Tresult;
     boolean append=false;
     //String TOTP,TPeriod,TstartTimeOtp,TendTimeOtp;
-    public FileManager(Context context,String result){
+    public FileManager(Context context,String result) {
         p=context;
         // String OTP,Period,startTimeOtp,endTimeOtp;
         ;
